@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +15,10 @@
     "url": "https://github.com/Aleksandr-Reznichenko/goit-node-cli"
   },
   "keywords": [],
-  "author": "Aleksandr Reznichenko <reznichenko.aleksandr.v@gmail.com>",
+  "author": "Aleksandr Reznichenko",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.0.0"
+    "commander": "^12.0.0",
+    "nanoid": "^3.3.7"
   }
 }
